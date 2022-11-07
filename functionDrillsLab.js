@@ -382,18 +382,18 @@ arrayIsAscending = blah(sampleArray)
 
 ////////////////// PROBLEM 22 ////////////////////
 
-// let duck = "cute";
+let duck = "cute";
 
-// function bathroom() {
-//   let rubberDuck = "squeaky";
-//   function bathtub() {
-//     let sailorDuck = "nautical";
-//   }
-// }
+function bathroom() {
+  let rubberDuck = "squeaky";
+  function bathtub() {
+    let sailorDuck = "nautical";
+  }
+}
 
-// function pond() {
-//   let realDuck = "fluffy";
-// }
+function pond() {
+  let realDuck = "fluffy";
+}
 
 /*
   There are 4 variables above: duck, rubberDuck, sailorDuck and realDuck.
@@ -402,13 +402,13 @@ arrayIsAscending = blah(sampleArray)
 */
 
 //This array should contain the variable names (as strings) accessible in the global scope.
-// let globalScope = [duck]
+let globalScope = [duck]
 
 // //This array should contain the variable names (as strings) accessible in the bathroom function.
-// let bathroomScope = [duck,sailorDuck,rubberDuck]
+let bathroomScope = [duck,sailorDuck,rubberDuck]
 
 // //This array should contain the variable names (as strings) accessible in the bathtub function.
-// let bathtubScope = [duck,sailorDuck]
+let bathtubScope = [duck,sailorDuck]
 
 // //This array should contain the variable names (as strings) accessible in the pond function.
-// let pondScope = [duck,realDuck]
+let pondScope = [duck,realDuck]
